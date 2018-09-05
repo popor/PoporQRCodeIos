@@ -6,7 +6,7 @@ PODS:
     - PoporFoundation/PrefixOs
   - PoporFoundation/PrefixOs (0.0.18)
   - PoporFoundation/ScreenCommonSize (0.0.18)
-  - PoporQRCodeIos (0.0.2)
+  - PoporQRCodeIos (0.0.3)
   - PoporUI/BlockView (0.0.11)
   - PoporUI/IToast (0.0.11):
     - PoporFoundation/NSString
@@ -37,7 +37,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PoporFoundation: 4328c1e0ae46dccec93c898b20a378354687d5ac
-  PoporQRCodeIos: 66763899d56ec3eb60c2f382a72d74a90f0a7535
+  PoporQRCodeIos: b07b2ae6ced0d49a4d680e2e7b716eea085e5798
   PoporUI: 49ed56a58096dbe900a6fb525221d50823cd7695
 
 PODFILE CHECKSUM: e39db912058014899826023bad391291f6aa0b04
