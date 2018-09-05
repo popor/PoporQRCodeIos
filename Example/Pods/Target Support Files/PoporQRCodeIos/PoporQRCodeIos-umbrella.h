@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JPQRCodeTool.h"
 
 FOUNDATION_EXPORT double PoporQRCodeIosVersionNumber;
 FOUNDATION_EXPORT const unsigned char PoporQRCodeIosVersionString[];

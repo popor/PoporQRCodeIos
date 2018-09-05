@@ -7,8 +7,13 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+摘自https://github.com/newyjp/JPQRCode,介绍在https://www.jianshu.com/p/5ab0dd4c5442.
+因为作者没有增加到pod中,所以不才放到了我的pod组里面.
 
+推荐使用方块的二维码,这个image容量比较小.
+
+```
 ## Requirements
 
 ## Installation

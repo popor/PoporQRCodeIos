@@ -2,7 +2,14 @@ use_frameworks!
 
 target 'PoporQRCodeIos_Example' do
   pod 'PoporQRCodeIos', :path => '../'
-
+  
+  pod 'Masonry'
+  pod 'PoporUI/UIImage'
+  pod 'PoporUI/Tool'
+  
+  pod 'PoporFoundation/ScreenCommonSize'
+  pod 'PoporFoundation/PrefixCore'
+  
   target 'PoporQRCodeIos_Tests' do
     inherit! :search_paths
 

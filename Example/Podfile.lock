@@ -1,16 +1,45 @@
 PODS:
-  - PoporQRCodeIos (0.1.0)
+  - Masonry (1.1.0)
+  - PoporFoundation/NSString (0.0.18):
+    - PoporFoundation/PrefixOs
+  - PoporFoundation/PrefixCore (0.0.18):
+    - PoporFoundation/PrefixOs
+  - PoporFoundation/PrefixOs (0.0.18)
+  - PoporFoundation/ScreenCommonSize (0.0.18)
+  - PoporQRCodeIos (0.0.2)
+  - PoporUI/BlockView (0.0.11)
+  - PoporUI/IToast (0.0.11):
+    - PoporFoundation/NSString
+  - PoporUI/Tool (0.0.11):
+    - PoporFoundation/NSString
+    - PoporUI/BlockView
+    - PoporUI/IToast
+  - PoporUI/UIImage (0.0.11)
 
 DEPENDENCIES:
+  - Masonry
+  - PoporFoundation/PrefixCore
+  - PoporFoundation/ScreenCommonSize
   - PoporQRCodeIos (from `../`)
+  - PoporUI/Tool
+  - PoporUI/UIImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - PoporFoundation
+    - PoporUI
 
 EXTERNAL SOURCES:
   PoporQRCodeIos:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PoporQRCodeIos: fc7f20b150ae524411c03c93da147229e4355e14
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PoporFoundation: 4328c1e0ae46dccec93c898b20a378354687d5ac
+  PoporQRCodeIos: 66763899d56ec3eb60c2f382a72d74a90f0a7535
+  PoporUI: 49ed56a58096dbe900a6fb525221d50823cd7695
 
-PODFILE CHECKSUM: 1a592099fc99ba14e35a6b1f7ecf801f71a477b0
+PODFILE CHECKSUM: e39db912058014899826023bad391291f6aa0b04
 
 COCOAPODS: 1.5.3
