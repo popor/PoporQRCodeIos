@@ -1,0 +1,16 @@
+PODS:
+  - PoporQRCodeIos (0.1.0)
+
+DEPENDENCIES:
+  - PoporQRCodeIos (from `../`)
+
+EXTERNAL SOURCES:
+  PoporQRCodeIos:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoporQRCodeIos: fc7f20b150ae524411c03c93da147229e4355e14
+
+PODFILE CHECKSUM: 1a592099fc99ba14e35a6b1f7ecf801f71a477b0
+
+COCOAPODS: 1.5.3
