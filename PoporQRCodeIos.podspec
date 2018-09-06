@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'PoporQRCodeIos'
-    s.version          = '0.0.4'
+    s.version          = '0.0.5'
     s.summary          = '生成二维码代码,iOS版本.'
     
     s.homepage         = 'https://github.com/popor/PoporQRCodeIos'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     s.tvos.deployment_target = '9.0'
-    s.watchos.deployment_target = '2.0'
+    #s.watchos.deployment_target = '2.0' #好像不支持二维码,先放弃了.
     
     
     s.source_files = 'PoporQRCodeIos/Classes/**/*'
